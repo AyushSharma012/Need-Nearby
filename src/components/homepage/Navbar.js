@@ -1,9 +1,7 @@
 import React from "react";
-import './Homepage.css';
 
-function Homepage(params) {
-    return(
-        // Navbar with centered text
+function Navbar(params) {
+    return (
         <nav className="navbar bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand mx-auto" href="/">Need-Nearby</a>
@@ -12,4 +10,4 @@ function Homepage(params) {
     )
 }
 
-export default Homepage;
+export default Navbar;
